@@ -9,7 +9,7 @@ const Layout = ({ children, readingMode }) => {
  
     return (
       <>
-        <Header siteTitle="Something" />
+        <Header siteTitle="State of RL" />
         <div
           className={"container px-2 mx-auto " + (readingMode && " max-w-2xl")}
         >
